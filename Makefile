@@ -1,6 +1,6 @@
 PROJECT_NAME=chatserver-api-app
 BIN_NAMES=chatserver-api
-GOARCHS=amd64
+GOARCHS=amd64 arm64
 GOARCHS_MAC=amd64
 go_version = $(shell go version)
 commit_id = $(shell git rev-parse HEAD)
